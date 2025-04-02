@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+}
+
+/* File Upload */
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px dashed #007bff;
+    background: #e9f5ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.file-upload:hover {
+    background: #d6eaff;
+}
+
+.file-upload input {
+    display: none;
+}
+
+/* Buttons */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Results Section */
+.results {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.results h2 {
+    color: #222;
+    font-size: 20px;
+}
+
+.score {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.missing-keywords {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Progress Bars */
+.progress-bar {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background-color: #28a745;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    transition: width 0.5s ease-in-out;
+}
